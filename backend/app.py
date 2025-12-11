@@ -13,24 +13,28 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'your-secret-key-change-
 
 # Hardcoded users database
 USERS = {
-    'manager@company.com': {
+    'manager@deepalgorithms.com': {
         'password': 'manager123',
         'role': 'manager',
-        'name': 'Priyanshu Manager'
+        'name': 'Deepa Kandala'
     },
-    'worker@company.com': {
+    'worker@deepalgorithms.com': {
         'password': 'worker123',
         'role': 'worker',
-        'name': 'Sarah Worker'
+        'name': 'Aditya Tripathi'
     },
-    'sde@company.com': {
+    'sde@deepalgorithms.com': {
         'password': 'sde123',
         'role': 'sde',
-        'name': 'Alex Developer'
+        'name': 'Priyanshu Kumar'
+    },
+    'ceo@deepalgorithms.com': {
+        'password': 'ceo123',
+        'role': 'ceo',
+        'name': 'JP Mishra'
     }
 }
 
-# Sample logs data for different roles
 LOGS_DATA = {
     'manager': [
         {'id': 1, 'type': 'team', 'message': 'Team meeting scheduled for tomorrow', 'timestamp': '2024-12-10 10:00'},
@@ -46,8 +50,14 @@ LOGS_DATA = {
         {'id': 1, 'type': 'deployment', 'message': 'Production deploy successful - v2.3.1', 'timestamp': '2024-12-10 11:30'},
         {'id': 2, 'type': 'error', 'message': 'Fixed memory leak in user service', 'timestamp': '2024-12-09 16:45'},
         {'id': 3, 'type': 'deployment', 'message': 'Staging environment updated', 'timestamp': '2024-12-09 10:15'}
+    ],
+    'ceo': [
+        {'id': 1, 'type': 'strategy', 'message': 'Board meeting scheduled with investors', 'timestamp': '2024-12-10 12:00'},
+        {'id': 2, 'type': 'announcement', 'message': 'Company expansion plan approved', 'timestamp': '2024-12-09 17:00'},
+        {'id': 3, 'type': 'finance', 'message': 'Q4 earnings call preparation underway', 'timestamp': '2024-12-09 09:00'}
     ]
 }
+
 
 def token_required(f):
     """Decorator to protect routes with JWT authentication"""
