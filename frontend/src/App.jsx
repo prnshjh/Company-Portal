@@ -175,15 +175,19 @@ function App() {
               <div className="credentials-grid">
                 <div className="credential-item">
                   <strong>Manager:</strong>
-                  <span>manager@company.com / manager123</span>
+                  <span>manager@deepalgorithms.com / manager123</span>
                 </div>
                 <div className="credential-item">
                   <strong>Worker:</strong>
-                  <span>worker@company.com / worker123</span>
+                  <span>worker@deepalgorithms.com / worker123</span>
                 </div>
                 <div className="credential-item">
                   <strong>SDE:</strong>
-                  <span>sde@company.com / sde123</span>
+                  <span>sde@deepalgorithms.com / sde123</span>
+                </div>
+                 <div className="credential-item">
+                  <strong>CEO:</strong>
+                  <span>ceo@deepalgorithms.com / ceo123</span>
                 </div>
               </div>
             </div>
