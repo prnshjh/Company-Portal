@@ -4,26 +4,7 @@ A full-stack web application demonstrating role-based authentication and authori
 
 ![Project Banner](https://img.shields.io/badge/Stack-Full--Stack-blue) ![Flask](https://img.shields.io/badge/Backend-Flask-green) ![React](https://img.shields.io/badge/Frontend-React%2019-61dafb) ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
 
----
 
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Running the Application](#-running-the-application)
-- [API Endpoints](#-api-endpoints)
-- [Demo Credentials](#-demo-credentials)
-- [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-- [Security Considerations](#-security-considerations)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
-
----
 
 ## ✨ Features
 
